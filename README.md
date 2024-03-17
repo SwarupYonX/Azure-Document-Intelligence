@@ -2,7 +2,7 @@
 
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer.png)
 
-This repository contains source code and guide how to build document analyzer with Function App, Form Recognizer, Logic App and Cosmos DB.
+This repository contains source code and guide how to build document analyzer with Function App, Azure AI Document Intelligence, Logic App and Cosmos DB.
 
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer15.png)
 
@@ -14,11 +14,11 @@ Below image presents azure services used in the solution:
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer1.PNG)
 
 
-## Train Form Recognizer model
+## Train Azure AI Document Intelligence model
 
-Please use [this](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/quickstarts/label-tool) instructions to setup labeling tool and train Form Recognizer model.
+Please use [this](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/quickstarts/label-tool) instructions to setup labeling tool and train Azure AI Document Intelligence model.
 
-Below steps show how Form Recognizer model was trained:
+Below steps show how Azure AI Document Intelligence model was trained:
 
 1. Upload [test](https://github.com/Daniel-Krzyczkowski/AzureAI/blob/master/src/document-analyzer/sample_data.zip) files to the Azure Blob Storage:
 
@@ -28,7 +28,7 @@ Below steps show how Form Recognizer model was trained:
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer4.PNG)
 
 
-2. Setup Form Recognizer model:
+2. Setup Azure AI Document Intelligence model:
 
 
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer5.PNG)
