@@ -20,7 +20,7 @@ Please use [this](https://docs.microsoft.com/en-us/azure/cognitive-services/form
 
 Below steps show how Azure AI Document Intelligence model was trained:
 
-1. Upload [test](https://github.com/Daniel-Krzyczkowski/AzureAI/blob/master/src/document-analyzer/sample_data.zip) files to the Azure Blob Storage:
+1. Upload [test](https://github.com/SwarupYonX/Azure-Document-Intelligence/blob/main/src/document-analyzer/sample_data.zip) files to the Azure Blob Storage:
 
 
 ![document-analyzer.png](src/document-analyzer/images/document-analyzer3.PNG)
@@ -50,7 +50,7 @@ Below steps show how Azure AI Document Intelligence model was trained:
 
 ## Setup Azure Function App
 
-Azure Function App source code for processing and inserting data to the Cosmos DB is available in [this](https://github.com/Daniel-Krzyczkowski/AzureAI/tree/master/src/document-analyzer/src) repository.
+Azure Function App source code for processing and inserting data to the Cosmos DB is available in [this](https://github.com/SwarupYonX/AzureAI/tree/master/src/document-analyzer/src) repository.
 
 
 ## Setup Azure Logic App
